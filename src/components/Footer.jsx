@@ -1,6 +1,6 @@
 import React from 'react'
 import Wrapper from './Wrapper'
-
+import { motion } from "motion/react"
 
 const Footer = () => {
     return (
@@ -15,7 +15,13 @@ const Footer = () => {
 
 
                         <div className="text-center">
-                            <p className="text-xs text-gray-500">© {new Date().getFullYear()} Sapan Kumar. 🎨 Designed & 💻 Built by Me.</p>
+                            <motion.p
+                                initial={{ y: 30, opacity: 0 }}
+                                whileInView={{ y: 0, opacity: 1 }}
+                                transition={{ duration: 0.6, delay: 0.6 }}
+                                className="text-xs text-gray-500">© {new Date().getFullYear()}
+                                <span className='dancing-script'>Sapan Kumar</span>.
+                                🎨 Designed & 💻 Built by Me.</motion.p>
 
                         </div>
                     </div>
