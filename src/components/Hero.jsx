@@ -49,9 +49,9 @@ const Hero = () => {
                                 transition={{ duration: 0.5, delay: 0.4 }}
                                 className="text-gray-700 text-md leading-relaxed mb-10 max-w-250 ovo-regular">
                                 Frontend Developer with 3+ years of experience building responsive, high-performance web applications using React.js,
-                                JavaScript, HTML5, and CSS3. Proven track record of increasing user engagement by 30% through strategic UI/UX
-                                implementation. Specialized in API integration, performance optimization, and delivering accessible, maintainable code in
-                                collaborative environments.
+                                JavaScript, HTML5, and CSS3. Adept at translating UI/UX designs into high-quality
+                                code and collaborating cross-functionally to deliver scalable products and performance
+                                optimization, delivering accessible, maintainable code in collaborative environments.
                             </motion.p>
 
 
@@ -156,11 +156,11 @@ const Hero = () => {
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-                            <motion.div 
-                             initial={{ y: 30, opacity: 0 }}
-                            whileInView={{ y: 0, opacity: 1 }}
-                            transition={{ duration: 0.6, delay: 0.6 }}
-                            className="border border-gray-200 rounded-lg p-6 bg-white">
+                            <motion.div
+                                initial={{ y: 30, opacity: 0 }}
+                                whileInView={{ y: 0, opacity: 1 }}
+                                transition={{ duration: 0.6, delay: 0.6 }}
+                                className="border border-gray-200 rounded-lg p-6 bg-white">
                                 <h3 className="font-semibold text-gray-900 mb-3">Languages</h3>
                                 <div className="flex flex-wrap gap-2">
                                     <span className="text-xs bg-gray-100 text-gray-700 px-3 py-1 rounded border border-gray-200">JavaScript (ES6+)</span>
@@ -170,11 +170,11 @@ const Hero = () => {
                             </motion.div>
 
 
-                            <motion.div 
-                              initial={{ y: 30, opacity: 0 }}
-                            whileInView={{ y: 0, opacity: 1 }}
-                            transition={{ duration: 0.7, delay: 0.7 }}
-                             className="border border-gray-200 rounded-lg p-6 bg-white">
+                            <motion.div
+                                initial={{ y: 30, opacity: 0 }}
+                                whileInView={{ y: 0, opacity: 1 }}
+                                transition={{ duration: 0.7, delay: 0.7 }}
+                                className="border border-gray-200 rounded-lg p-6 bg-white">
                                 <h3 className="font-semibold text-gray-900 mb-3">Frameworks & Libraries</h3>
                                 <div className="flex flex-wrap gap-2">
                                     <span className="text-xs bg-gray-100 text-gray-700 px-3 py-1 rounded border border-gray-200">React.js</span>
@@ -185,11 +185,11 @@ const Hero = () => {
                             </motion.div>
 
 
-                            <motion.div 
-                              initial={{ y: 30, opacity: 0 }}
-                            whileInView={{ y: 0, opacity: 1 }}
-                            transition={{ duration: 0.7, delay: 0.7 }}
-                             className="border border-gray-200 rounded-lg p-6 bg-white">
+                            <motion.div
+                                initial={{ y: 30, opacity: 0 }}
+                                whileInView={{ y: 0, opacity: 1 }}
+                                transition={{ duration: 0.7, delay: 0.7 }}
+                                className="border border-gray-200 rounded-lg p-6 bg-white">
                                 <h3 className="font-semibold text-gray-900 mb-3">Tools & Technologies</h3>
                                 <div className="flex flex-wrap gap-2">
                                     <span className="text-xs bg-gray-100 text-gray-700 px-3 py-1 rounded border border-gray-200">Git</span>
@@ -203,10 +203,10 @@ const Hero = () => {
 
 
                             <motion.div
-                              initial={{ y: 30, opacity: 0 }}
-                            whileInView={{ y: 0, opacity: 1 }}
-                            transition={{ duration: 0.7, delay: 0.7 }}
-                            className="border border-gray-200 rounded-lg p-6 bg-white">
+                                initial={{ y: 30, opacity: 0 }}
+                                whileInView={{ y: 0, opacity: 1 }}
+                                transition={{ duration: 0.7, delay: 0.7 }}
+                                className="border border-gray-200 rounded-lg p-6 bg-white">
                                 <h3 className="font-semibold text-gray-900 mb-3">Deployment & Hosting</h3>
                                 <div className="flex flex-wrap gap-2">
                                     <span className="text-xs bg-gray-100 text-gray-700 px-3 py-1 rounded border border-gray-200">Netlify</span>
@@ -218,11 +218,11 @@ const Hero = () => {
                     </div>
 
 
-                    <motion.div 
-                      initial={{ y: 30, opacity: 0 }}
-                            whileInView={{ y: 0, opacity: 1 }}
-                            transition={{ duration: 0.7, delay: 0.7 }}
-                             className="border border-gray-200 rounded-lg p-8 bg-white">
+                    <motion.div
+                        initial={{ y: 30, opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.7, delay: 0.7 }}
+                        className="border border-gray-200 rounded-lg p-8 bg-white">
                         <h3 className="font-semibold text-gray-900 mb-6">Core Competencies</h3>
                         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                             <p className="text-sm text-gray-700">✨ Responsive Design</p>
