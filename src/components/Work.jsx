@@ -21,12 +21,12 @@ const Work = () => {
             image: '/magazin.png',
             url: 'https://magazine-five-iota.vercel.app/',
         },
-        {
-            id: 3,
-            title: 'Dashboard',
-            image: '/Modern-Dashboard.png',
-            url: 'https://sapankr800.github.io/Modern-Dashboard/',
-        },
+        // {
+        //     id: 3,
+        //     title: 'Dashboard',
+        //     image: '/Modern-Dashboard.png',
+        //     url: 'https://sapankr800.github.io/Modern-Dashboard/',
+        // },
         {
             id: 4,
             title: 'Wizardz',
