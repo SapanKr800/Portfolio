@@ -112,7 +112,7 @@ const Hero = () => {
                                         initial={{ y: 30, opacity: 0 }}
                                         whileInView={{ y: 0, opacity: 1 }}
                                         transition={{ duration: 0.6, delay: 0.6 }}
-                                        href='mailto:sapankr800@gmail.com' target='_blank'>   <div className="w-12 h-12 border border-gray-300 rounded-lg flex items-center justify-center hover:bg-gray-100 transition">
+                                        href='mailto:krsapan790@gmail.com' target='_blank'>   <div className="w-12 h-12 border border-gray-300 rounded-lg flex items-center justify-center hover:bg-gray-100 transition">
 
                                             <Mail className="w-5 h-5 text-red-500" />
                                         </div></motion.a>
